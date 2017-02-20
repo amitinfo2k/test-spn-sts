@@ -2,7 +2,7 @@
 
 echo "Sample script execution "
 
-ifconfig
+ifconfig > /tmp.out.log
 
 
 echo "Done "

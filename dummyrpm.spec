@@ -15,11 +15,11 @@ dummy rpm image
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/tmp/dummy
-cp -R * $RPM_BUILD_ROOT/tmp/dummy
+mkdir -p $RPM_BUILD_ROOT/tmp
+cp -R * $RPM_BUILD_ROOT/tmp
 
 %file
-/opt/
+/tmp
 
 %clean
 rm -rf $RPM_BUILD_ROOT

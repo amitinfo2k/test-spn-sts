@@ -18,7 +18,7 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/tmp
 cp -R * $RPM_BUILD_ROOT/tmp
 
-%file
+%files
 /tmp
 
 %clean

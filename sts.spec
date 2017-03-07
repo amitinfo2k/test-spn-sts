@@ -15,11 +15,11 @@ sts rpm image
 
 %install
 rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/opt
-cp -R * $RPM_BUILD_ROOT/opt
+mkdir -p $RPM_BUILD_ROOT/var/www/html
+cp -R * $RPM_BUILD_ROOT/var/www/html
 
 %files
-/opt
+/var/www/html
 
 %clean
 rm -rf $RPM_BUILD_ROOT

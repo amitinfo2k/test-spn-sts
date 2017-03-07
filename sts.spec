@@ -1,17 +1,17 @@
-Name: sxp-dummy
+Name: sxp-sts
 Version:  %{version}
 Release:  %{release}%{?dist}
-Summary:  dummy rpm packg
+Summary:  sts rpm packg
 
 License:  GPL
 URL:   None
-Source:  sxp-dummy.tar
+Source:  sxp-sts.tar
 
 %description
-dummy rpm image
+sts rpm image
 
 %prep
-%setup -n sxp-dummy
+%setup -n sxp-sts
 
 %install
 rm -rf $RPM_BUILD_ROOT

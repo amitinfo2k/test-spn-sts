@@ -18,8 +18,5 @@ rm -rf $RPM_BUILD_ROOT
 mkdir -p $RPM_BUILD_ROOT/tmp/dummy
 cp -R * $RPM_BUILD_ROOT/tmp/dummy
 
-%files
-/tmp/
-
 %clean
 rm -rf $RPM_BUILD_ROOT
